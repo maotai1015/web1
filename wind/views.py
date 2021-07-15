@@ -3,7 +3,7 @@ from django.shortcuts import render
 from wind.models import StockData, KLine, DayData
 # Create your views here.
 from django.views import View
-
+# OK
 # 数据处理类
 class Result:
     def __init__(self,data):
