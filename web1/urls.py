@@ -21,4 +21,5 @@ urlpatterns = [
     path('index/', Index.as_view()),
     path('kline/', Kline.as_view()),
     path('trend/', Trend.as_view()),
+    path('trend111/', Trend.as_view()),
 ]
