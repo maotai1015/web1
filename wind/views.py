@@ -8,7 +8,7 @@ from django.views import View
 
 
 
-# 测试1.0
+# 测试2.0
 
 
 class Result:
