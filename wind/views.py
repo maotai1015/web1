@@ -1,10 +1,16 @@
-from django.http import HttpResponse, JsonResponse
-from django.shortcuts import render
-from wind.models import StockData, KLine, DayData
+from django.http import JsonResponse
+from wind.models import KLine, DayData
 # Create your views here.
 from django.views import View
 # OK
 # 数据处理类
+
+
+
+
+# 测试1.0
+
+
 class Result:
     def __init__(self,data):
         self.status = 0
